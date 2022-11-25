@@ -1,0 +1,47 @@
+<?php
+    session_start();
+?>
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Кинотеатр - регистрация</title>
+    <link rel="stylesheet" href="reg.css">
+    <link rel="stylesheet" href="itc-slider.css">
+    <script src="itc-slider.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="bigCont">
+            <div class="cont">
+                <div class="headerCont">
+                    <h1 class="webName"><a href='index.html'>&equiv;Кинотеатр</a></h1>
+                    <a href='reg.html' class="storage">Личный кабинет</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="mainCont">
+            <form action="" method="post" class="searchForm">
+                <label for="POST-name" id="searchLabel">Пароль</label><br>
+                <input type="password" placeholder="Введите пароль" id="searchInput" name='pass'><br>
+                <label for="POST-name" id="searchLabel">Подтвердите пароль</label><br>
+                <input type="password" placeholder="Введите пароль" id="searchInput" name='pass_conf'><br>
+                <label for="POST-name" id="searchLabel">Почта<br></label>
+                <input type="text" placeholder="Введите почту" id="searchInput" name='pass'><br>
+                <input type="submit" value="&#128269;  Зарегистрироваться" id="searchSubm">
+                <a href='reg.html'>Уже есть учётная запись?</a>
+              </form>
+        </div>
+    </main>
+    <footer>
+        <div class="cont">
+            <p class="footerp">ОКЭИ 2022, Наумкин 3вб3 &copy;</p>
+        </div>
+    </footer>
+</body>
+</html>

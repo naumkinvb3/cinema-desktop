@@ -1,0 +1,173 @@
+*,
+*:before,
+*:after{
+    margin:0;
+    padding:0;
+    font-family: Helvetica;
+    color:white;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    color: #3f337e;
+}
+a:active{
+    color: #3f337e;
+}
+ul,li{
+    text-decoration: none;
+    list-style-type: none;
+}
+input {
+    outline: none;
+    border:1px solid white;
+}
+
+.cont{
+    width:35%;
+    margin:0 auto;
+}
+.mainCont{
+    width:35%;
+    margin:0 auto;
+    background-color: #0d0f11;
+    height:100vh;
+}
+.bigCont{
+    width:100%;
+    margin:0 auto;
+    background-color: #060708;
+    height:5em;
+}
+
+.headerCont{
+    display:flex;
+    justify-content: space-between;
+}
+.headerCont h1{
+    margin-top:1em;
+    font-size:25px;
+}
+.headerCont a{
+    margin-top:2em;
+}
+
+body{
+    display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
+main{
+    background-color: #10161d;
+    flex-grow: 1;
+    background-image: url(bg1.png);
+}
+
+.infoCont{
+    margin:0 2em 0 2em;
+}
+.infoCont h1{
+    padding-top:1em;
+}
+.infoCont ul{
+    margin:1em 0 0 1.5em;
+}
+.infoCont li{
+    padding-bottom: 0.5em;
+    font-size:18px;
+}
+
+.ex{
+    position:relative;
+    top:30%;
+}
+
+.buyCont{
+    text-align: center;
+    padding:2em;
+}
+.mainHeadH1{
+    font-size:25px;
+    padding-top:1em;
+}
+.mainCont button{
+    margin: 0 auto;
+    background-color: #242525;
+    padding:0.3em 0.5em 0.3em 0.5em;
+    font-size:18px;
+    border:1px solid #242525;
+    border-radius:0.5em;
+    margin:1em 0 4em 0;
+}
+.mainCont button:hover{
+    cursor: pointer;
+}
+.mainCont a{
+    font-size:15px;
+    display:flex;
+    padding:2em;
+    justify-content: center;
+}
+
+.usrCont{
+    display: flex;
+}
+.usrContBtn{
+    margin-top:1.5em;
+}
+
+.searchForm{
+    text-align: center;
+    font-size:18px;
+    position: relative;
+    top:30%;
+}
+#searchLabel{
+    margin-top:2em;
+}
+#searchInput{
+    margin:1em 0 1em 0;
+    background-color: #060708;
+    border-radius: 0.5em;
+    padding:1em;
+    width:40%;
+    font-size:15px;
+}
+#searchSubm{
+    background-color: #060708;
+    padding:1em;
+    border-radius: 5em;
+    margin-left:0.5em;
+    margin-top:1em;
+    cursor: pointer;
+    font-size:15px;
+    width:45%;
+}
+#searchSubm:hover{
+    background-color: #3f337e;
+}
+
+.bil{
+    width:100%;
+    height:28em;
+    position: relative;
+}
+.bil p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    font-size:18px;
+}
+
+footer{
+	background-color:#060708;
+	text-align:center;
+	padding: 1% 0 1% 0;
+	flex-shrink: 0;
+}
+.footerp{
+    font-size:15px;
+}

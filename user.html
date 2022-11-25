@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Кинотеатр - личный кабинет</title>
+    <link rel="stylesheet" href="user.css">
+    <link rel="stylesheet" href="itc-slider.css">
+    <script src="itc-slider.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="bigCont">
+            <div class="cont">
+                <div class="headerCont">
+                    <h1 class="webName"><a href='index.html'>&equiv;Кинотеатр</a></h1>
+                    <a href='user.html' class="storage">Личный кабинет</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="mainCont">
+            <div class="buyCont">
+                <h1 class="mainHeadH1">Добро пожаловать<br>в личный кабинет</h1>
+                <div class="usrCont">
+                    <article> </article>
+                    <div class="usrContBtn">
+                        <div class="changePass">
+                            <div id="zatemnenie1">
+                                <div id="okno">
+                                    <input type="text" placeholder="Старый пароль" id="searchInput"><br>
+                                    <input type="text" placeholder="Новый пароль" id="searchInput"><br>
+                                    <a href='#' id="searchSubm" class="close">&#128275;</a><br>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="changeUved">
+                            <div id="zatemnenie2">
+                                <div id="okno">
+                                    <form action="" method="post" id="checkForm">
+                                        <input type="checkbox" id="headUved" name="headUved">
+                                        <label for="headUved">Всплывающие уведомления</label><br>
+                                        <input type="checkbox" id="mailbox" name="mailbox" checked>
+                                        <label for="mailbox">Уведомления на почту</label><br>
+                                        <input type="checkbox" id="films" name="films">
+                                        <label for="films">Напоминание о новых фильмах</label><br>
+                                        <a href='#' id="searchSubm" class="close">&#128275;</a><br>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                        <button><a href="#zatemnenie1">&#128274;  Изменить пароль</a></button>
+                        <button><a href="#zatemnenie2">&#128276;  Параметры уведомлений</a></button>
+                    </div>
+                </div>
+            </div>
+            <div class="searchCont">
+                <form action="" method="post" class="searchForm">
+                    <label for="POST-name" id="searchLabel">Поиск купленных билетов:<br></label>
+                    <input type="text" placeholder="Введите название фильма" id="searchInput">
+                    <input type="submit" value="&#128269;  Искать" id="searchSubm">
+                  </form>
+                  <br><br><hr>
+            </div>
+            <div class="bil">
+                <p>&#10060;  У Вас нет билетов</p>
+            </div>
+            <hr>
+            <div class="buyCont">
+                <button id="buyBtn"><a href='buy.html'>&#128190;  Приобрести</a></button>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="cont">
+            <p class="footerp">ОКЭИ 2022, Наумкин 3вб3 &copy;</p>
+        </div>
+    </footer>
+</body>
+</html>
